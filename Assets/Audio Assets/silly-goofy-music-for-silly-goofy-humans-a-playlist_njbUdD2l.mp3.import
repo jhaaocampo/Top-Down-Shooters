@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/silly-goofy-music-for-silly-goofy-humans-a-playlist_njbUdD2l.mp3-eb9b436aa0ebbcd0e49be1abb2194d16.mp3str"
+
+[deps]
+
+source_file="res://assets/Audio Asset/silly-goofy-music-for-silly-goofy-humans-a-playlist_njbUdD2l.mp3"
+dest_files=[ "res://.import/silly-goofy-music-for-silly-goofy-humans-a-playlist_njbUdD2l.mp3-eb9b436aa0ebbcd0e49be1abb2194d16.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

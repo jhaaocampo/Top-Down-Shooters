@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/capybara drop.mp3-14935334a41b629e77f7eae5fabd3a0d.mp3str"
+
+[deps]
+
+source_file="res://assets/Audio Asset/capybara drop.mp3"
+dest_files=[ "res://.import/capybara drop.mp3-14935334a41b629e77f7eae5fabd3a0d.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

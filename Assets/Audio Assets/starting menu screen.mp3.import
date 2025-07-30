@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/starting menu screen.mp3-4150bac28e019149f3e3a45b30812708.mp3str"
+
+[deps]
+
+source_file="res://assets/Audio Asset/starting menu screen.mp3"
+dest_files=[ "res://.import/starting menu screen.mp3-4150bac28e019149f3e3a45b30812708.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

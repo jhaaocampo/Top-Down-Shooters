@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/capybara landing (normal).mp3-357d0020c1883a83eec71831f9141e61.mp3str"
+
+[deps]
+
+source_file="res://assets/Audio Asset/capybara landing (normal).mp3"
+dest_files=[ "res://.import/capybara landing (normal).mp3-357d0020c1883a83eec71831f9141e61.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

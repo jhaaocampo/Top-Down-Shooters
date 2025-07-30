@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/FreezingEnemy.mp3-2cd1f36c22734be82bd2ee6d59b27998.mp3str"
+
+[deps]
+
+source_file="res://assets/Audio Asset/FreezingEnemy.mp3"
+dest_files=[ "res://.import/FreezingEnemy.mp3-2cd1f36c22734be82bd2ee6d59b27998.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

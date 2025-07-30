@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/done (height challenge).mp3-687511f068effd82af93b9dd1a7e529a.mp3str"
+
+[deps]
+
+source_file="res://assets/Audio Asset/done (height challenge).mp3"
+dest_files=[ "res://.import/done (height challenge).mp3-687511f068effd82af93b9dd1a7e529a.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/inflating-a-balloon-sound-effect-hd_sxmLXkaU.mp3-59b1a595c5763186d8e3f8dcd876289f.mp3str"
+
+[deps]
+
+source_file="res://assets/Audio Asset/inflating-a-balloon-sound-effect-hd_sxmLXkaU.mp3"
+dest_files=[ "res://.import/inflating-a-balloon-sound-effect-hd_sxmLXkaU.mp3-59b1a595c5763186d8e3f8dcd876289f.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
