@@ -1,0 +1,53 @@
+[gd_scene load_steps=18 format=2]
+
+[ext_resource path="res://Fart.gd" type="Script" id=1]
+[ext_resource path="res://assets/bullet 12.png" type="Texture" id=2]
+[ext_resource path="res://assets/bullet 8.png" type="Texture" id=3]
+[ext_resource path="res://assets/bullet 7.png" type="Texture" id=4]
+[ext_resource path="res://assets/bullet 4.png" type="Texture" id=5]
+[ext_resource path="res://assets/bullet 9.png" type="Texture" id=6]
+[ext_resource path="res://assets/bullet 2.png" type="Texture" id=7]
+[ext_resource path="res://assets/bullet 5.png" type="Texture" id=8]
+[ext_resource path="res://assets/bullet 3.png" type="Texture" id=9]
+[ext_resource path="res://assets/bullet 13.png" type="Texture" id=10]
+[ext_resource path="res://assets/bullet 6.png" type="Texture" id=11]
+[ext_resource path="res://assets/bullet 1.png" type="Texture" id=12]
+[ext_resource path="res://assets/bullet 11.png" type="Texture" id=13]
+[ext_resource path="res://assets/bullet 10.png" type="Texture" id=14]
+[ext_resource path="res://assets/Audio Asset/inflating-a-balloon-sound-effect-hd_sxmLXkaU.mp3" type="AudioStream" id=15]
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ ExtResource( 12 ), ExtResource( 7 ), ExtResource( 5 ), ExtResource( 9 ), ExtResource( 8 ), ExtResource( 11 ), ExtResource( 4 ), ExtResource( 3 ), ExtResource( 6 ), ExtResource( 14 ), ExtResource( 13 ), ExtResource( 2 ), ExtResource( 10 ) ],
+"loop": true,
+"name": "default",
+"speed": 13.0
+} ]
+
+[sub_resource type="CapsuleShape2D" id=3]
+radius = 7.99991
+height = 48.0002
+
+[node name="Fart" type="Area2D"]
+position = Vector2( -17, 2 )
+script = ExtResource( 1 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( 4, 22 )
+rotation = -0.785397
+scale = Vector2( 0.244646, 0.246424 )
+frames = SubResource( 2 )
+frame = 1
+playing = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( -15, 6 )
+rotation = 1.5708
+shape = SubResource( 3 )
+
+[node name="Timer" type="Timer" parent="."]
+one_shot = true
+autostart = true
+
+[node name="BlowSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 15 )

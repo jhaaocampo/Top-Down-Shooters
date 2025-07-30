@@ -1,0 +1,358 @@
+[gd_scene load_steps=56 format=2]
+
+[ext_resource path="res://assets/lvl1.png" type="Texture" id=1]
+[ext_resource path="res://assets/arrow.png" type="Texture" id=2]
+[ext_resource path="res://assets/arrow - Copy.png" type="Texture" id=3]
+[ext_resource path="res://assets/lvl4.png" type="Texture" id=4]
+[ext_resource path="res://assets/lvl2.png" type="Texture" id=5]
+[ext_resource path="res://assets/lvl3.png" type="Texture" id=6]
+[ext_resource path="res://assets/LevelPage.png" type="Texture" id=7]
+[ext_resource path="res://assets/lvl6.png" type="Texture" id=8]
+[ext_resource path="res://assets/lvl5.png" type="Texture" id=9]
+[ext_resource path="res://assets/lvl8.png" type="Texture" id=10]
+[ext_resource path="res://assets/lvl7.png" type="Texture" id=11]
+[ext_resource path="res://assets/lvl9.png" type="Texture" id=12]
+[ext_resource path="res://assets/lvl10.png" type="Texture" id=13]
+[ext_resource path="res://LevelPage.gd" type="Script" id=14]
+[ext_resource path="res://assets/HomeButton.png" type="Texture" id=15]
+[ext_resource path="res://assets/Audio Asset/capybara drop.mp3" type="AudioStream" id=16]
+
+[sub_resource type="StyleBoxTexture" id=1]
+texture = ExtResource( 3 )
+region_rect = Rect2( 0, 0, 500, 500 )
+expand_margin_left = 3.0
+expand_margin_right = 3.0
+expand_margin_top = 3.0
+expand_margin_bottom = 3.0
+
+[sub_resource type="StyleBoxTexture" id=2]
+texture = ExtResource( 3 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=3]
+texture = ExtResource( 3 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=4]
+texture = ExtResource( 2 )
+region_rect = Rect2( 0, 0, 500, 500 )
+expand_margin_left = 3.0
+expand_margin_right = 3.0
+expand_margin_top = 3.0
+expand_margin_bottom = 3.0
+
+[sub_resource type="StyleBoxTexture" id=5]
+texture = ExtResource( 2 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=6]
+texture = ExtResource( 2 )
+region_rect = Rect2( 0, 0, 500, 500 )
+expand_margin_bottom = 3.0
+
+[sub_resource type="StyleBoxTexture" id=7]
+texture = ExtResource( 1 )
+region_rect = Rect2( 0, 0, 500, 500 )
+expand_margin_left = 3.0
+expand_margin_right = 3.0
+expand_margin_top = 3.0
+expand_margin_bottom = 3.0
+
+[sub_resource type="StyleBoxTexture" id=8]
+texture = ExtResource( 1 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=9]
+texture = ExtResource( 1 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=10]
+texture = ExtResource( 5 )
+region_rect = Rect2( 0, 0, 500, 500 )
+expand_margin_left = 3.0
+expand_margin_right = 3.0
+expand_margin_top = 3.0
+
+[sub_resource type="StyleBoxTexture" id=11]
+texture = ExtResource( 5 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=12]
+texture = ExtResource( 5 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=13]
+texture = ExtResource( 6 )
+region_rect = Rect2( 0, 0, 500, 500 )
+expand_margin_left = 3.0
+expand_margin_right = 3.0
+expand_margin_top = 3.0
+expand_margin_bottom = 3.0
+
+[sub_resource type="StyleBoxTexture" id=14]
+texture = ExtResource( 6 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=15]
+texture = ExtResource( 6 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=16]
+texture = ExtResource( 4 )
+region_rect = Rect2( 0, 0, 500, 500 )
+expand_margin_left = 3.0
+expand_margin_right = 3.0
+expand_margin_top = 3.0
+expand_margin_bottom = 3.0
+
+[sub_resource type="StyleBoxTexture" id=17]
+texture = ExtResource( 4 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=18]
+texture = ExtResource( 4 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=19]
+texture = ExtResource( 9 )
+region_rect = Rect2( 0, 0, 500, 500 )
+expand_margin_left = 3.0
+expand_margin_right = 3.0
+expand_margin_top = 3.0
+expand_margin_bottom = 3.0
+
+[sub_resource type="StyleBoxTexture" id=20]
+texture = ExtResource( 9 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=21]
+texture = ExtResource( 9 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=22]
+texture = ExtResource( 8 )
+region_rect = Rect2( 0, 0, 500, 500 )
+expand_margin_left = 3.0
+expand_margin_right = 3.0
+expand_margin_top = 3.0
+expand_margin_bottom = 3.0
+
+[sub_resource type="StyleBoxTexture" id=23]
+texture = ExtResource( 8 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=24]
+texture = ExtResource( 8 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=25]
+texture = ExtResource( 11 )
+region_rect = Rect2( 0, 0, 500, 500 )
+expand_margin_left = 3.0
+expand_margin_right = 3.0
+expand_margin_top = 3.0
+expand_margin_bottom = 3.0
+
+[sub_resource type="StyleBoxTexture" id=26]
+texture = ExtResource( 11 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=27]
+texture = ExtResource( 11 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=28]
+texture = ExtResource( 10 )
+region_rect = Rect2( 0, 0, 500, 500 )
+expand_margin_left = 3.0
+expand_margin_right = 3.0
+expand_margin_top = 3.0
+expand_margin_bottom = 3.0
+
+[sub_resource type="StyleBoxTexture" id=29]
+texture = ExtResource( 10 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=30]
+texture = ExtResource( 10 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=31]
+texture = ExtResource( 12 )
+region_rect = Rect2( 0, 0, 500, 500 )
+expand_margin_left = 3.0
+expand_margin_right = 3.0
+expand_margin_top = 3.0
+expand_margin_bottom = 3.0
+
+[sub_resource type="StyleBoxTexture" id=32]
+texture = ExtResource( 12 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=33]
+texture = ExtResource( 12 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=34]
+texture = ExtResource( 13 )
+region_rect = Rect2( 0, 0, 500, 500 )
+expand_margin_left = 3.0
+expand_margin_right = 3.0
+expand_margin_top = 3.0
+
+[sub_resource type="StyleBoxTexture" id=35]
+texture = ExtResource( 13 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=36]
+texture = ExtResource( 13 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=37]
+texture = ExtResource( 15 )
+region_rect = Rect2( 0, 0, 500, 500 )
+expand_margin_left = 3.0
+expand_margin_right = 3.0
+expand_margin_top = 3.0
+expand_margin_bottom = 3.0
+
+[sub_resource type="StyleBoxTexture" id=38]
+texture = ExtResource( 15 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[sub_resource type="StyleBoxTexture" id=39]
+texture = ExtResource( 15 )
+region_rect = Rect2( 0, 0, 500, 500 )
+
+[node name="LevelPage" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 14 )
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_left = 1.0
+margin_right = 1036.0
+margin_bottom = 604.0
+texture = ExtResource( 7 )
+expand = true
+
+[node name="RightArrow" type="Button" parent="."]
+margin_left = 940.0
+margin_top = 299.0
+margin_right = 1013.0
+margin_bottom = 371.0
+custom_styles/hover = SubResource( 1 )
+custom_styles/pressed = SubResource( 2 )
+custom_styles/normal = SubResource( 3 )
+
+[node name="LeftArrow" type="Button" parent="."]
+margin_left = 24.0
+margin_top = 306.0
+margin_right = 95.0
+margin_bottom = 379.0
+custom_styles/hover = SubResource( 4 )
+custom_styles/pressed = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+
+[node name="Lvl1" type="Button" parent="."]
+margin_left = 120.0
+margin_top = 161.0
+margin_right = 252.0
+margin_bottom = 299.0
+custom_styles/hover = SubResource( 7 )
+custom_styles/pressed = SubResource( 8 )
+custom_styles/normal = SubResource( 9 )
+
+[node name="Lvl2" type="Button" parent="."]
+margin_left = 286.0
+margin_top = 160.0
+margin_right = 418.0
+margin_bottom = 298.0
+custom_styles/hover = SubResource( 10 )
+custom_styles/pressed = SubResource( 11 )
+custom_styles/normal = SubResource( 12 )
+
+[node name="Lvl3" type="Button" parent="."]
+margin_left = 450.0
+margin_top = 159.0
+margin_right = 584.0
+margin_bottom = 298.0
+custom_styles/hover = SubResource( 13 )
+custom_styles/pressed = SubResource( 14 )
+custom_styles/normal = SubResource( 15 )
+
+[node name="Lvl4" type="Button" parent="."]
+margin_left = 617.0
+margin_top = 160.0
+margin_right = 751.0
+margin_bottom = 301.0
+custom_styles/hover = SubResource( 16 )
+custom_styles/pressed = SubResource( 17 )
+custom_styles/normal = SubResource( 18 )
+
+[node name="Lvl5" type="Button" parent="."]
+margin_left = 782.0
+margin_top = 156.0
+margin_right = 916.0
+margin_bottom = 298.0
+custom_styles/hover = SubResource( 19 )
+custom_styles/pressed = SubResource( 20 )
+custom_styles/normal = SubResource( 21 )
+
+[node name="Lvl6" type="Button" parent="."]
+margin_left = 121.0
+margin_top = 359.0
+margin_right = 253.0
+margin_bottom = 496.0
+custom_styles/hover = SubResource( 22 )
+custom_styles/pressed = SubResource( 23 )
+custom_styles/normal = SubResource( 24 )
+
+[node name="Lvl7" type="Button" parent="."]
+margin_left = 286.0
+margin_top = 359.0
+margin_right = 417.0
+margin_bottom = 496.0
+custom_styles/hover = SubResource( 25 )
+custom_styles/pressed = SubResource( 26 )
+custom_styles/normal = SubResource( 27 )
+
+[node name="Lvl8" type="Button" parent="."]
+margin_left = 453.0
+margin_top = 360.0
+margin_right = 585.0
+margin_bottom = 497.0
+custom_styles/hover = SubResource( 28 )
+custom_styles/pressed = SubResource( 29 )
+custom_styles/normal = SubResource( 30 )
+
+[node name="Lvl9" type="Button" parent="."]
+margin_left = 617.0
+margin_top = 358.0
+margin_right = 750.0
+margin_bottom = 496.0
+custom_styles/hover = SubResource( 31 )
+custom_styles/pressed = SubResource( 32 )
+custom_styles/normal = SubResource( 33 )
+
+[node name="Lvl10" type="Button" parent="."]
+margin_left = 783.0
+margin_top = 358.0
+margin_right = 918.0
+margin_bottom = 497.0
+custom_styles/hover = SubResource( 34 )
+custom_styles/pressed = SubResource( 35 )
+custom_styles/normal = SubResource( 36 )
+
+[node name="HomeButton" type="Button" parent="."]
+margin_left = 20.0
+margin_top = 16.0
+margin_right = 77.0
+margin_bottom = 71.0
+custom_styles/hover = SubResource( 37 )
+custom_styles/pressed = SubResource( 38 )
+custom_styles/normal = SubResource( 39 )
+
+[node name="ButtonSound" type="AudioStreamPlayer2D" parent="."]
+position = Vector2( 20, 16 )
+stream = ExtResource( 16 )
